@@ -20,7 +20,7 @@ class MetaTaskResolver
     {
         $validator = new BracesValidator();
 
-        if ($validator->validEntry($text)) {
+        if ($validator->isValidEntry($text)) {
             echo 'верно';
         } else {
             echo 'не верно';

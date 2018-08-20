@@ -12,7 +12,7 @@ class BracesValidator
      * @param string $text
      * @return bool
      */
-    public function validEntry(string $text): bool
+    public function isValidEntry(string $text): bool
     {
         $balance = [];
 
